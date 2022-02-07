@@ -1,0 +1,14 @@
+[user]
+	email = chityhi@gmail.com
+	name = Chityhi
+
+[alias]
+	aa = add .
+	b = branch
+	co = checkout
+	d = !"git diff-index --quiet HEAD -- || clear; git diff --patch-with-stat --color-words"
+	l = log --graph --decorate --pretty=oneline --abbrev-commit -5
+	pf = push --force
+	rb = rebase
+	rbc = rebase --continue
+	s = status
