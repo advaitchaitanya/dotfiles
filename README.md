@@ -28,8 +28,8 @@ source setup-symlinks.sh
 
 ## Setup Ruby
 1. Install rbenv via Homebrew: `brew install rbenv ruby-build`
-2. Download a version of Ruby via rbenv (e.g., `rbenv install 3.0.3`)
-3. Set the global version (e.g., `rbenv global 3.0.3`)
+2. Download a version of Ruby via rbenv (e.g., `rbenv install 3.3.0`)
+3. Set the global version (e.g., `rbenv global 3.3.0`)
 
 See [Install Ruby On Rails on macOS 10.14 Mojave](https://gorails.com/setup/osx/10.14-mojave) for complete details.
 
@@ -40,9 +40,9 @@ See [Install Ruby On Rails on macOS 10.14 Mojave](https://gorails.com/setup/osx/
 
 ## Download Third-Party Applications
 - [AppCleaner](https://freemacsoft.net/appcleaner/)
-- [Atom](https://atom.io)
 - [ImageAlpha](https://pngmini.com)
 - [ImageOptim](https://imageoptim.com/howto.html)
+- [TextMate](https://macromates.com/)
 
 ## Acknowledgements
 Motivation and code was taken from several sources, including:
