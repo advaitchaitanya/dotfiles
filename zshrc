@@ -34,5 +34,8 @@ alias remove-history='rm ~/.zsh_history'
 # Start a Ruby server in the current directory
 alias serve='ruby -run -e httpd . -p 8000'
 
+# Build and serve a Jekyll site
+alias js='bundle exec jekyll serve'
+
 # Erase current session history
 function erase_history { local HISTSIZE=0; }
