@@ -45,6 +45,9 @@ nmap <leader>rc :tabedit $MYVIMRC<cr>
 " Reload configuration 
 nmap <leader>src :source $MYVIMRC<cr>
 
+" Toggle NERDTree
+nmap <leader>t :NERDTreeToggle<cr>
+
 " Add theme
 syntax on
 colorscheme default
