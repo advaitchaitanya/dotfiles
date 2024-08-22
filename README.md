@@ -36,6 +36,7 @@ See [Install Ruby On Rails on macOS 10.14 Mojave](https://gorails.com/setup/osx/
 - Install [Jekyll](https://jekyllrb.com): `gem install jekyll bundler`
 - Install [Node.js](https://nodejs.org/en/)
 - Install [JavaScript Standard Style](https://standardjs.com): `npm install standard --global`
+- Download [Tomorrow Theme](https://github.com/chriskempson/tomorrow-theme)
 
 ## Download Third-Party Applications
 - [AppCleaner](https://freemacsoft.net/appcleaner/)
