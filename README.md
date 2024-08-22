@@ -1,7 +1,6 @@
 # dotfiles
 > Git, macOS, Vim, and ZSH configuration files
 
-
 ## Prepare macOS and Symlinks
 
 1. Install [Homebrew](https://brew.sh)
@@ -11,7 +10,7 @@
 3. Clone the repo using GitHub CLI: `~/Documents/Projects/`
 
 ```
-gh repo clone chityhi/dotfiles
+gh repo clone advaitchaitanya/dotfiles
 ```
 
 4. Setup macOS
