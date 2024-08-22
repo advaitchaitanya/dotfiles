@@ -13,9 +13,10 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Plugins
 Plugin 'airblade/vim-gitgutter'
-Plugin 'chriskempson/base16-vim'
+" Plugin 'chriskempson/base16-vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'sgur/vim-editorconfig'
+Plugin 'preservim/nerdtree'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
 
@@ -46,7 +47,8 @@ nmap <leader>src :source $MYVIMRC<cr>
 
 " Add theme
 syntax on
-colorscheme base16-tomorrow
+colorscheme default
+" colorscheme base16-tomorrow
 
 " Go to start of word
 nmap 0 ^
@@ -64,14 +66,17 @@ set laststatus=2
 " Ignore case of search
 set ignorecase
 
-" Don't wrap lines
-set nowrap
-
 " Keep at least 4 lines below cursor
 set scrolloff=4
 
-" Auto indent
+" Auto indent with soft-wrap
 set autoindent
+set breakindent
+set breakindentopt=shift:2
+set linebreak
+set textwidth=0
+set wrap
+set wrapmargin=0
 
 " Show line numbers
 set number
