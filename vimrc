@@ -13,7 +13,6 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Plugins
 Plugin 'airblade/vim-gitgutter'
-" Plugin 'chriskempson/base16-vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'sgur/vim-editorconfig'
 Plugin 'preservim/nerdtree'
@@ -45,13 +44,8 @@ nmap <leader>rc :tabedit $MYVIMRC<cr>
 " Reload configuration 
 nmap <leader>src :source $MYVIMRC<cr>
 
-" Toggle NERDTree
-nmap <leader>t :NERDTreeToggle<cr>
-
 " Add theme
-syntax on
-colorscheme default
-" colorscheme base16-tomorrow
+syntax off
 
 " Go to start of word
 nmap 0 ^
