@@ -22,8 +22,8 @@ alias src='source ~/.zshrc'
 # Git
 alias g='git'
 
-# Output one filename per line
-alias ls='ls -1a'
+# Output all files
+alias ls='ls -a'
 
 # Clear screen
 alias c='clear'
