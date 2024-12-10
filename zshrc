@@ -32,7 +32,7 @@ alias c='clear'
 alias remove-history='rm ~/.zsh_history'
 
 # Start a Ruby server in the current directory
-alias serve='ruby -run -e httpd . -p 8000'
+alias serve='php -S localhost:8000'
 
 # Build and serve a Jekyll site
 alias js='bundle exec jekyll serve'
