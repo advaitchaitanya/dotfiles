@@ -1,6 +1,9 @@
 # Add Homebrew's executable directory to the front of the PATH
 export PATH=/usr/local/bin:$PATH
 
+# Add MacPorts
+export PATH=/opt/local/bin:$PATH
+
 # Add rbenv to ZSH so that it loads every time you open a terminal
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
