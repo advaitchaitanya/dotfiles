@@ -4,11 +4,6 @@ export PATH=/opt/local/bin:$PATH
 # Add rbenv to ZSH so that it loads every time you open a terminal
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-# Customize the prompt for Git
-source ~/git-prompt.sh
-export GIT_PS1_SHOWDIRTYSTATE=1
-precmd () { __git_ps1 "%m" "%% " " %s " }
-
 # Set Vim as default editor
 export EDITOR='$VISUAL'
 export VISUAL=vim
@@ -39,3 +34,6 @@ alias js='bundle exec jekyll serve'
 
 # Erase current session history
 function erase_history { local HISTSIZE=0; }
+
+# Starship init script
+eval "$(starship init zsh)"
