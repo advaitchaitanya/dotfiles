@@ -1,7 +1,7 @@
 # Dock
 #
 # Set the default Dock size
-defaults write com.apple.dock tilesize -int 36
+defaults write com.apple.dock tilesize -int 34
 # Dissable automatically rearranging Spaces based on most recent use
 defaults write com.apple.dock mru-spaces -bool false
 # Don't show recent applications in Dock
