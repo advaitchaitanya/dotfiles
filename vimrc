@@ -15,7 +15,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'sgur/vim-editorconfig'
-Plugin 'preservim/nerdtree'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
 
@@ -38,14 +37,14 @@ let g:ctrlp_use_caching = 0
 " Change mapleader
 let mapleader = "\<Space>"
 
-" Open configuration 
+" Open configuration
 nmap <leader>rc :tabedit $MYVIMRC<cr>
 
-" Reload configuration 
+" Reload configuration
 nmap <leader>src :source $MYVIMRC<cr>
 
 " Add theme
-syntax off
+syntax on
 
 " Go to start of word
 nmap 0 ^
@@ -79,7 +78,7 @@ set wrapmargin=0
 set number
 
 " Show character limit
-" set colorcolumn=80
+set colorcolumn=80
 
 " Turn off backup files
 set nobackup
