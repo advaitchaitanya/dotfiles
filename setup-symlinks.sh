@@ -1,5 +1,5 @@
 # Download Git prompt support
-curl -o ~/git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
+# curl -o ~/git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
 
 # Disable the "last login" message on new sessions
 touch ~/.hushlogin
