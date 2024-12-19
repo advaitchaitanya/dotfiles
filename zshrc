@@ -4,12 +4,8 @@ export PATH=/opt/local/bin:$PATH
 # Add rbenv to ZSH so that it loads every time you open a terminal
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-# Set Vim as default editor
-export EDITOR='$VISUAL'
-export VISUAL=vim
-
 # Edit
-alias rc='vim ~/.zshrc'
+alias rc='nvim ~/.zshrc'
 
 # Reload
 alias src='source ~/.zshrc'
