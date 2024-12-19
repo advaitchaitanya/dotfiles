@@ -34,7 +34,7 @@ alias c='clear'
 # Remove history file
 alias remove-history='rm ~/.zsh_history'
 
-# Start a Ruby server in the current directory
+# Start a PHP server in the current directory
 alias serve='php -S localhost:8000'
 
 # Build and serve a Jekyll site
