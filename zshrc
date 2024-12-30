@@ -25,6 +25,9 @@ alias remove-history='rm ~/.zsh_history'
 # Start a PHP server in the current directory
 alias serve='php -S localhost:8000'
 
+# Go to `Sites` directory on iCloud Drive
+alias sites='cd /Users/advaitchaitanya/Library/Mobile\ Documents/com~apple~CloudDocs/Sites/'
+
 # Build and serve a Jekyll site
 alias js='bundle exec jekyll serve'
 
