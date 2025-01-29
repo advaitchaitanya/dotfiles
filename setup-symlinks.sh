@@ -9,6 +9,7 @@ ln -s ~/Documents/Projects/dotfiles/gitconfig ~/.gitconfig
 ln -s ~/Documents/Projects/dotfiles/gitignore ~/.gitignore
 ln -s ~/Documents/Projects/dotfiles/vimrc ~/.vimrc
 ln -s ~/Documents/Projects/dotfiles/zshrc ~/.zshrc
+ln -s ~/Documents/Projects/dotfiles/starship.toml ~/.config/starship.toml
 
 # Initialize settings
 source ~/.zshrc
