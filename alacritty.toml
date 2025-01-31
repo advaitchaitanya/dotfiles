@@ -1,5 +1,5 @@
 general.import = [
-  "~/.config/alacritty/catppuccin-frappe.toml"
+  "catpuccin-frappe.toml"
 ]
 
 [env]
