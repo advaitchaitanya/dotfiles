@@ -12,7 +12,7 @@ program = "/opt/local/bin/zellij"
 padding.x = 16
 padding.y = 14
 decorations = "Buttonless"
-# opacity = 0.95
+opacity = 0.98
 
 [cursor]
 style.blinking = "On"
