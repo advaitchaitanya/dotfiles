@@ -1,7 +1,7 @@
 # dotfiles
 > Git, macOS, Vim, and ZSH configuration files
 
-![](dotfiles-logo.jpg)
+![Logo](https://github.com/advaitchaitanya/dotfiles/blob/main/dotfiles-logo.jpg)
 
 ## Prepare macOS and Symlinks
 
