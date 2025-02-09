@@ -1,6 +1,8 @@
 # dotfiles
 > Git, macOS, Vim, and ZSH configuration files
 
+![](dotfiles-logo.jpg)
+
 ## Prepare macOS and Symlinks
 
 1. Install [Homebrew](https://brew.sh)
